@@ -1,0 +1,24 @@
+.header{
+    background-image: url(../../public/assets/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: white;
+}
+.title{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.title_h1{
+    color: white;
+    font-size: 80px;
+}
+.title_p{
+    color: white;
+    font-size: 40px;
+}
