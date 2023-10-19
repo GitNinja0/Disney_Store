@@ -1,0 +1,23 @@
+{
+  "name": "disney-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitNinja0/Disney_Store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitNinja0/Disney_Store/issues"
+  },
+  "homepage": "https://github.com/GitNinja0/Disney_Store#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.69.4"
+  }
+}
