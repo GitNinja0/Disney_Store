@@ -1,0 +1,19 @@
+.left {
+  width: 49%;
+  display: inline-block;
+}
+
+.right {
+  width: 49%;
+  display: inline-block;
+  text-align: right;
+}
+
+footer {
+  margin: 20px;
+}
+footer div {
+  vertical-align: top;
+}
+
+/*# sourceMappingURL=footer.css.map */
