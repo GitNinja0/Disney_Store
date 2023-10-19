@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 .header {
   background-image: url(../../public/assets/fondo.jpg);
   background-size: cover;
@@ -11,6 +12,11 @@
   color: white;
 }
 
+.nav_secundary {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .title {
   display: grid;
   align-items: center;
@@ -18,13 +24,18 @@
 }
 
 .title_h1 {
+  font-family: "Yellowtail", cursive;
   color: white;
   font-size: 80px;
+  margin-top: 80px;
+  margin-bottom: 0;
 }
 
 .title_p {
+  font-family: "Yellowtail", cursive;
   color: white;
   font-size: 40px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=header.css.map */
