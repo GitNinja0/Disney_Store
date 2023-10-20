@@ -10,7 +10,9 @@
 }
 
 footer {
-  background-color: rgb(72, 44, 250);
+  background-color: #340D6B;
+  color: white;
+  padding: 2rem;
 }
 footer div {
   vertical-align: top;
