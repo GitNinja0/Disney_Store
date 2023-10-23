@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"product-page.css"}
+{"version":3,"sourceRoot":"","sources":["../../src/sass/product-page.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EAEA;EACA;EACA;;AAGA;EACI;EACA;EACA;EACA;EACA;EACA;EACA","file":"product-page.css"}

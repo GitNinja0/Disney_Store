@@ -1,3 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+#category-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../public/assets/img/44100_q124_hp_wk3_mc_plush_promo_tb\ \(1\).webp);
+  backdrop-filter: brightness(75%);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+#category-title h2 {
+  color: white;
+  font-size: 4rem;
+  justify-content: center;
+  text-align: center;
+  line-height: 200px;
+  width: 100%;
+  backdrop-filter: brightness(65%);
+}
 
 /*# sourceMappingURL=product-page.css.map */
