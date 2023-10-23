@@ -5,13 +5,14 @@
   background-image: url(../../public/assets/img/fondo1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 780px;
 }
 
 .nav {
   display: grid;
   grid-template-columns: 50% 50%;
   color: white;
+  padding: 20px;
 }
 
 .nav_secundary {
@@ -20,6 +21,7 @@
 }
 
 .title {
+  margin-top: 100px;
   display: grid;
   align-items: center;
   justify-items: center;
@@ -28,7 +30,7 @@
 .title_h1 {
   font-family: "Yellowtail", cursive;
   color: white;
-  font-size: 80px;
+  font-size: 100px;
   margin-top: 80px;
   margin-bottom: 0;
 }
@@ -38,6 +40,16 @@
   color: white;
   font-size: 40px;
   margin: 0;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.749);
+  color: black;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 80px;
+  text-decoration: none;
 }
 
 * {
@@ -52,12 +64,12 @@ body {
 #products {
   background-color: white;
   filter: opacity(95%);
-  height: 200px;
+  height: 150px;
 }
 
 #products h2 {
   font-family: "Yellowtail", cursive;
-  font-size: 72px;
+  font-size: 68px;
   color: #340D6B;
 }
 

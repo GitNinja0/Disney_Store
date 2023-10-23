@@ -12,12 +12,12 @@ body {
 #products {
   background-color: white;
   filter: opacity(95%);
-  height: 200px;
+  height: 150px;
 }
 
 #products h2 {
   font-family: "Yellowtail", cursive;
-  font-size: 72px;
+  font-size: 68px;
   color: #340D6B;
 }
 
