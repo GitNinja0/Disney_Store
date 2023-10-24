@@ -17,30 +17,20 @@
     flex-direction: row-reverse;
 }
 .title{
-    margin-top: 100px;
+    margin-top: 370px;
     display: grid;
     align-items: center;
     justify-items: center;
 }
-.title_h1{
-    font-family: 'Yellowtail', cursive;
-    color: white;
-    font-size: 100px;
-    margin-top: 80px;
-    margin-bottom: 0;
-}
-.title_p{
-    font-family: 'Yellowtail', cursive;
-    color: white;
-    font-size: 40px;
-    margin: 0;
-}
+
 .button{
-    background-color: rgba(255, 255, 255, 0.749);
-    color: black;
+    backdrop-filter: brightness(50%);
+    color:white;
+    font-family: 'Poppins';
     font-size: 1.5rem;
     padding: 1rem;
-    border-radius: 20px;
+    border-radius: 5px;
+    border: 1px solid white; 
     margin-top: 80px;
     text-decoration: none;
 }

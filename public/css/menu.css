@@ -1,15 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Yellowtail&display=swap");
 .menu {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
   justify-items: center;
   color: white;
+  font-family: "Poppins";
 }
 
 .bar {
   backdrop-filter: brightness(50%);
   padding: 30px;
   border: 1px solid white;
+}
+
+.logo {
+  background-image: url(../../public/assets/img/logo_disneyStore_blanco.svg);
+  background-repeat: no-repeat;
+  padding: 30px;
 }
 
 /*# sourceMappingURL=menu.css.map */
