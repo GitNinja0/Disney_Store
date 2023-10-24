@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@600&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Yellowtail&display=swap");
 .header {
   background-image: url(../../public/assets/img/portada.jpg);
   background-size: cover;
@@ -21,33 +22,20 @@
 }
 
 .title {
-  margin-top: 100px;
+  margin-top: 370px;
   display: grid;
   align-items: center;
   justify-items: center;
 }
 
-.title_h1 {
-  font-family: "Yellowtail", cursive;
-  color: white;
-  font-size: 100px;
-  margin-top: 80px;
-  margin-bottom: 0;
-}
-
-.title_p {
-  font-family: "Yellowtail", cursive;
-  color: white;
-  font-size: 40px;
-  margin: 0;
-}
-
 .button {
-  background-color: rgba(255, 255, 255, 0.749);
-  color: black;
+  backdrop-filter: brightness(50%);
+  color: white;
+  font-family: "Poppins";
   font-size: 1.5rem;
   padding: 1rem;
-  border-radius: 20px;
+  border-radius: 5px;
+  border: 1px solid white;
   margin-top: 80px;
   text-decoration: none;
 }
@@ -171,16 +159,24 @@ footer div {
 }
 
 .menu {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
   justify-items: center;
   color: white;
+  font-family: "Poppins";
 }
 
 .bar {
   backdrop-filter: brightness(50%);
   padding: 30px;
   border: 1px solid white;
+}
+
+.logo {
+  background-image: url(../../public/assets/img/logo_disneyStore_blanco.svg);
+  background-repeat: no-repeat;
+  padding: 30px;
 }
 
 body {
