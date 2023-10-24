@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Yellowtail&display=swap');
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    color:  white;
+}
+
+.bar {
+backdrop-filter: brightness(50%);
+padding: 30px;
+border: 1px solid white;
+}
