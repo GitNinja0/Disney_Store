@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+.header {
+  background-image: url(../../public/assets/img/portada.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 780px;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: white;
+  padding: 20px;
+}
+
+.nav_secundary {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.title {
+  margin-top: 370px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.button {
+  backdrop-filter: brightness(50%);
+  color: white;
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-top: 80px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=header.css.map */

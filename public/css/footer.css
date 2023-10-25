@@ -1,0 +1,21 @@
+.left {
+  width: 49%;
+  display: inline-block;
+}
+
+.right {
+  width: 49%;
+  display: inline-block;
+  text-align: right;
+}
+
+footer {
+  background-color: #340D6B;
+  color: white;
+  padding: 2rem;
+}
+footer div {
+  vertical-align: top;
+}
+
+/*# sourceMappingURL=footer.css.map */

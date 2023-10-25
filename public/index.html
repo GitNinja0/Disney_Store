@@ -1,44 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+    </head>
+    <body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav_principal">
+                <div>
+                   <div class="logo"></div>
+                     
+                    
+                </div>         
+            </div>
+            <div class="nav_secundary">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-basket" width="54" height="54" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
+                    <path d="M5.001 8h13.999a2 2 0 0 1 1.977 2.304l-1.255 7.152a3 3 0 0 1 -2.966 2.544h-9.512a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304z"></path>
+                    <path d="M17 10l-2 -6"></path>
+                    <path d="M7 10l2 -6"></path>
+                 </svg>
+                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="54" height="54" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
+                 </svg>
+            </div>
+            
+        </nav>
+
+        <section class="menu bar">
+            <p>CATEGORIAS</p>
+            <p>NOVEDADES</p>
+            <p>PROMOCIONES</p>
+            <p>OUTLET</p>
+            <p>CONTACTO</p>
+        </section>
+        <section class="title">
+              <a class="button" href="#products">Bienvenidos</a>
+        </section>
+        
+    </header>
+    
     <main>
         <section  id="products"class="flex">
             <h2>
-                Nuestros Productos
+              CATEGORÍAS
             </h2>
         </section>
         <section class="flex">
          <div id="category-section">
             <article id="img1"class="category trending">
-                <h3>Disfraces</h3>
+                <div class="backdrop"><h3>disfraces</h3></div>
             </article>
             <article id="img2" class="category trending">
-                <h3>Peluches</h3>
+                <div class="backdrop"><h3>Peluches</h3></div>
             </article>
             <article id="img3" class="category">
-                <h3>Juguetes</h3>
+                <div class="backdrop"><h3>accesorio</h3></div>
             </article>
             <article id="img4" class="category">
-                <h3>Accesorios</h3>
+                <div class="backdrop"><h3>juguetes</h3></div>
             </article>
             <article id="img5" class="category">
-                <h3>Tazas</h3>
+                <div class="backdrop"><h3>navidad</h3></div>
             </article>
             <article id="img6" class="category">
-                <h3>Navidad</h3>
+                <div class="backdrop"><h3>tazas</h3></div>
             </article>
          </div>
         </section>
-
-
-
     </main>
-    
+
+    <footer>
+        <div class="left">
+            <p>&copy; 2023 Raposos. Todos los derechos reservados</p>
+        </div>
+        <div class="right">
+            <p>Suscríbete para recibir noticias y ofertas</p>
+            <form>
+                <input type="text" />
+                <input type="submit" value="Suscríbete" />
+            </form>
+        </div>
+    </footer>
 </body>
+    
 </html>

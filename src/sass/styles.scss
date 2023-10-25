@@ -1,1 +1,8 @@
-@use "product.scss"
+@use "product.scss";
+@use "header.scss";
+@use "main.scss";
+@use "footer.scss";
+@use "menu.scss";
+body{
+    margin: 0;
+}
