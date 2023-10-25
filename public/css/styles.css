@@ -40,15 +40,34 @@ main {
   font-size: xx-large;
 }
 
+#number {
+  background-color: white;
+  border: 0;
+}
+
+#button_buy {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  background-color: rgb(251, 211, 219);
+  border: 1px solid rgb(251, 211, 219);
+  margin-top: 5%;
+  height: 3rem;
+  width: 30rem;
+  justify-content: center;
+  align-items: center;
+}
+
 .square {
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 54px;
-  width: 54px;
-  border: 2px solid rgb(255, 216, 254);
+  height: 40px;
+  width: 40px;
+  font-size: medium;
+  border: 1px solid rgb(251, 211, 219);
+  background-color: rgb(251, 211, 219);
 }
 
 /*# sourceMappingURL=styles.css.map */
