@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+main{
+    margin: 5% 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.flex{
+    display: flex;
+}
+#product_details{
+
+ 
+    padding: 5%;
+
+}
+#product_img{
+    height: 700px;
+        
+ }
+
+#review_section{
+   
+    align-items: center;
+    gap: 2rem;
+}
+#stars{
+   
+    height: 20px;
+    
+}
+#buy_section{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    div{
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+    }
+}
+#price{
+    font-size: xx-large;
+}
+
+.square{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    height: 54px;
+    width: 54px;
+
+    border: 2px solid rgb(255, 216, 254)
+    
+}
