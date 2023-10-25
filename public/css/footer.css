@@ -1,21 +1,25 @@
-.left {
-  width: 49%;
-  display: inline-block;
-}
-
-.right {
-  width: 49%;
-  display: inline-block;
-  text-align: right;
-}
-
 footer {
-  background-color: #340D6B;
-  color: white;
-  padding: 2rem;
+  background-color: #cfc6db;
 }
-footer div {
-  vertical-align: top;
+
+#footer_info {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2em;
+}
+#footer_info a {
+  display: block;
+  padding-top: 0.5em;
+}
+#footer_info div {
+  border-left: 1px solid black;
+  padding-left: 1.2em;
+}
+#footer_info img {
+  width: 70px;
 }
 
 /*# sourceMappingURL=footer.css.map */
