@@ -1,0 +1,47 @@
+.nav { 
+        width: 1000px;
+    margin:30px auto;
+}
+
+.nav ul { 
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #fadae4;
+}
+
+.submenu {
+    position: absolute;
+    backdrop-filter: brightness(50%);
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: green;
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+     display: block;
+    visibility: visible;
+    opacity: 1;
+}
