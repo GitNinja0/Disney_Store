@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="96" height="60" rx="7.15" ry="7.15"/>
+    </clipPath>
+  </defs>
+  <g class="cls-2">
+    <image width="96" height="60" xlink:href="../../imagenes/modos de pago/payment_applepay_2x.jpg"/>
+  </g>
+</svg>
