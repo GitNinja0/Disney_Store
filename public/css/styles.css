@@ -1,96 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Yellowtail&display=swap");
-main {
-  margin: 5% 5%;
-  font-family: "Poppins", sans-serif;
-}
-
-.flex {
-  display: flex;
-}
-
-#svh_shere {
-  margin-left: 10rem;
-}
-
-#svh_heart {
-  margin-left: 1rem;
-}
-
-.svg_style {
-  height: 35px;
-  align-items: center;
-}
-
-#product_details {
-  padding: 5%;
-}
-
-#product_img {
-  height: 700px;
-}
-
-#flex {
-  display: flex;
-  align-items: center;
-}
-
-#review_section {
-  align-items: center;
-  gap: 2rem;
-}
-
-#stars {
-  height: 20px;
-}
-
-#buy_section {
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-#buy_section div {
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-#price {
-  font-size: xx-large;
-}
-
-#number {
-  background-color: white;
-  border: 0;
-}
-
-#button_buy {
-  font-family: "Poppins", sans-serif;
-  font-size: large;
-  background-color: rgb(251, 211, 219);
-  border: 1px solid rgb(251, 211, 219);
-  margin-top: 5%;
-  height: 3rem;
-  width: 30rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.square {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 40px;
-  width: 40px;
-  font-size: medium;
-  border: 1px solid rgb(251, 211, 219);
-  background-color: rgb(251, 211, 219);
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 .header {
   background-image: url(../../public/assets/img/portada.jpg);
   background-size: cover;
@@ -135,11 +46,6 @@ main {
   border: 1px solid white;
   margin-top: 80px;
   text-decoration: none;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -274,6 +180,95 @@ footer div {
   background-image: url(../../public/assets/img/logo_disneyStore_blanco.svg);
   background-repeat: no-repeat;
   padding: 30px;
+}
+
+main {
+  margin: 5% 5%;
+  font-family: "Poppins", sans-serif;
+}
+
+.flex_product {
+  display: flex;
+}
+
+#svh_shere {
+  margin-left: 10rem;
+}
+
+#svh_heart {
+  margin-left: 1rem;
+}
+
+.svg_style {
+  height: 35px;
+  align-items: center;
+}
+
+#product_details {
+  padding: 5%;
+}
+
+#product_img {
+  height: 700px;
+}
+
+#icons {
+  display: flex;
+  align-items: center;
+}
+
+#review_section {
+  align-items: center;
+  gap: 2rem;
+}
+
+#stars {
+  height: 20px;
+}
+
+#buy_section {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#buy_section div {
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#price {
+  font-size: xx-large;
+}
+
+#number {
+  background-color: white;
+  border: 0;
+}
+
+#button_buy {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  background-color: rgb(251, 211, 219);
+  border: 1px solid rgb(251, 211, 219);
+  margin-top: 5%;
+  height: 3rem;
+  width: 30rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  font-size: medium;
+  border: 1px solid rgb(251, 211, 219);
+  background-color: rgb(251, 211, 219);
 }
 
 body {

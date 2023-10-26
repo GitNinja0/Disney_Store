@@ -4,7 +4,7 @@ main {
   font-family: "Poppins", sans-serif;
 }
 
-.flex {
+.flex_product {
   display: flex;
 }
 
@@ -29,7 +29,7 @@ main {
   height: 700px;
 }
 
-#flex {
+#icons {
   display: flex;
   align-items: center;
 }
