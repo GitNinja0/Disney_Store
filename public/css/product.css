@@ -8,12 +8,30 @@ main {
   display: flex;
 }
 
+#svh_shere {
+  margin-left: 10rem;
+}
+
+#svh_heart {
+  margin-left: 1rem;
+}
+
+.svg_style {
+  height: 35px;
+  align-items: center;
+}
+
 #product_details {
   padding: 5%;
 }
 
 #product_img {
   height: 700px;
+}
+
+#flex {
+  display: flex;
+  align-items: center;
 }
 
 #review_section {

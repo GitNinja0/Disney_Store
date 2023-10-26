@@ -7,6 +7,22 @@ main{
 .flex{
     display: flex;
 }
+
+#svh_shere{
+    margin-left: 10rem;
+}
+#svh_heart{
+ margin-left:  1rem;
+}
+
+
+
+.svg_style{
+   
+    height: 35px;
+   
+    align-items: center;
+}
 #product_details{
 
  
@@ -17,6 +33,12 @@ main{
     height: 700px;
         
  }
+
+#flex{
+    display: flex;
+    align-items: center;
+    
+}
 
 #review_section{
    
@@ -58,6 +80,7 @@ main{
     justify-content: center;
     align-items: center;
 }
+
 
 .square{
     margin: 0;
