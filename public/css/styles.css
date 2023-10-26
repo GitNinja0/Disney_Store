@@ -189,6 +189,7 @@ footer div {
 
 .menu > li {
   position: relative;
+  display: inline-block;
 }
 
 .menu > li > a {
@@ -201,11 +202,12 @@ footer div {
 
 .menu li a:hover {
   color: #fadae4;
+  transition: all 0.3s;
 }
 
 .submenu {
   position: absolute;
-  backdrop-filter: brightness(50%);
+  background: #333333;
   width: 120%;
   visibility: hidden;
   opacity: 0;
