@@ -1,15 +1,16 @@
 footer {
+    
     background-color: #cfc6db;
+    font-family: 'Poppins';
   
 }
 
 
 #footer_info{
     display: grid;
-    width: 90%;
-    grid-template-columns: 1.2fr 1fr 1fr 1fr;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 1400px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
     padding-top: 2em;
 
     a{
@@ -17,29 +18,42 @@ footer {
         padding-top: 0.5em;
     }
     #pago{
+        padding-right: 40px;
         display: grid;
         text-align: center;
         row-gap: 30px;
+        #cards{
+             img {
+                width: 50px;
+            }
+        }
         
     }
     #cards{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+        
+      
+        
+  
        
         
   }
     
-    
-    div {
-        
-        padding-left: 1.2em;
-    }
+
     
     img{
         width: 70px;
+        margin:auto;
     }
     #registro p{padding-top: 0.5em;
         }
+
+    div{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
 }
 #legal{
