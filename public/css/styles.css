@@ -141,24 +141,53 @@ body {
   background-size: cover;
 }
 
-.left {
-  width: 49%;
-  display: inline-block;
-}
-
-.right {
-  width: 49%;
-  display: inline-block;
-  text-align: right;
-}
-
 footer {
-  background-color: #340D6B;
-  color: white;
-  padding: 2rem;
+  background-color: #cfc6db;
+  font-family: "Poppins";
 }
-footer div {
-  vertical-align: top;
+
+#footer_info {
+  display: grid;
+  width: 1400px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  padding-top: 2em;
+}
+#footer_info a {
+  display: block;
+  padding-top: 0.5em;
+}
+#footer_info #pago {
+  padding-right: 40px;
+  display: grid;
+  text-align: center;
+  row-gap: 30px;
+}
+#footer_info #pago #cards img {
+  width: 50px;
+}
+#footer_info #cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#footer_info img {
+  width: 70px;
+  margin: auto;
+}
+#footer_info #registro p {
+  padding-top: 0.5em;
+}
+#footer_info div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#legal {
+  text-align: center;
+  padding-top: 3em;
+}
+#legal p {
+  padding-top: 0.5em;
 }
 
 .menu {
