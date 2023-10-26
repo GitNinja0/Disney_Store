@@ -6,6 +6,14 @@
   height: 780px;
 }
 
+.header_products {
+  background-image: url(../../public/assets/img/44100_q124_hp_wk3_mc_plush_promo_tb.webp);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
 .nav {
   display: grid;
   grid-template-columns: 50% 50%;
