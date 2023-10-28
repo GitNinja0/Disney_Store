@@ -24,13 +24,19 @@
   padding: 20px;
 }
 
+.header_navs {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: white;
+}
+
 .nav_secundary {
-  display: flex;
-  flex-direction: row-reverse;
+  display: grid;
+  justify-items: end;
 }
 
 .title {
-  margin-top: 370px;
+  margin-top: 17rem;
   display: grid;
   align-items: center;
   justify-items: center;
@@ -191,10 +197,6 @@ footer {
 }
 
 .menu {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  justify-items: center;
   color: white;
   font-family: "Poppins";
 }
@@ -209,6 +211,48 @@ footer {
   background-image: url(../../public/assets/img/logo_disneyStore_blanco.svg);
   background-repeat: no-repeat;
   padding: 30px;
+}
+
+li, a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.dropdown > .dropdown_two {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: #0096E7;
+  position: absolute;
+  padding: 14px 0px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10;
+  transition: all 300ms ease;
+}
+
+.dropdown:hover > .dropdown_two {
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav_drop {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  background-color: gray;
 }
 
 main {

@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Yellowtail&display=swap");
 .menu {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  justify-items: center;
   color: white;
   font-family: "Poppins";
 }

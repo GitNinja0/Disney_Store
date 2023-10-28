@@ -20,12 +20,18 @@
     color: white;
     padding: 20px;
 }
+.header_navs{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: white;
+
+}
 .nav_secundary{
-    display: flex;
-    flex-direction: row-reverse;
+    display: grid;
+    justify-items: end;
 }
 .title{
-    margin-top: 370px;
+    margin-top: 17rem;
     display: grid;
     align-items: center;
     justify-items: center;
