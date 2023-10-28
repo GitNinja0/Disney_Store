@@ -1,11 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 .header {
   background-image: url(../../public/assets/img/portada.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 780px;
+}
+
+.header_products {
+  background-image: url(../../public/assets/img/44100_q124_hp_wk3_mc_plush_promo_tb.webp);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+  height: 400px;
 }
 
 .nav {
@@ -37,11 +46,6 @@
   border: 1px solid white;
   margin-top: 80px;
   text-decoration: none;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -137,24 +141,53 @@ body {
   background-size: cover;
 }
 
-.left {
-  width: 49%;
-  display: inline-block;
-}
-
-.right {
-  width: 49%;
-  display: inline-block;
-  text-align: right;
-}
-
 footer {
-  background-color: #340D6B;
-  color: white;
-  padding: 2rem;
+  background-color: #cfc6db;
+  font-family: "Poppins";
 }
-footer div {
-  vertical-align: top;
+
+#footer_info {
+  display: grid;
+  width: 1400px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  padding-top: 2em;
+}
+#footer_info a {
+  display: block;
+  padding-top: 0.5em;
+}
+#footer_info #pago {
+  padding-right: 40px;
+  display: grid;
+  text-align: center;
+  row-gap: 30px;
+}
+#footer_info #pago #cards img {
+  width: 50px;
+}
+#footer_info #cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#footer_info img {
+  width: 70px;
+  margin: auto;
+}
+#footer_info #registro p {
+  padding-top: 0.5em;
+}
+#footer_info div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#legal {
+  text-align: center;
+  padding-top: 3em;
+}
+#legal p {
+  padding-top: 0.5em;
 }
 
 .menu {
@@ -178,54 +211,93 @@ footer div {
   padding: 30px;
 }
 
-.nav {
-  width: 1000px;
-  margin: 30px auto;
+main {
+  margin: 5% 5%;
+  font-family: "Poppins", sans-serif;
 }
 
-.nav ul {
-  list-style: none;
+.flex_product {
+  display: flex;
 }
 
-.menu > li {
-  position: relative;
-  display: inline-block;
+#svh_shere {
+  margin-left: 10rem;
 }
 
-.menu > li > a {
-  display: block;
-  padding: 15px 20px;
-  color: white;
-  font-family: Poppins;
-  text-decoration: none;
+#svh_heart {
+  margin-left: 1rem;
 }
 
-.menu li a:hover {
-  color: #fadae4;
-  transition: all 0.3s;
+.svg_style {
+  height: 35px;
+  align-items: center;
 }
 
-.submenu {
-  position: absolute;
-  background: #333333;
-  width: 120%;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 1.5s;
+#product_details {
+  padding: 5%;
 }
 
-.submenu li a {
-  display: block;
-  padding: 15px;
-  color: green;
-  font-family: Poppins;
-  text-decoration: none;
+#product_img {
+  height: 700px;
 }
 
-.menu li:hover .submenu {
-  display: block;
-  visibility: visible;
-  opacity: 1;
+#icons {
+  display: flex;
+  align-items: center;
+}
+
+#review_section {
+  align-items: center;
+  gap: 2rem;
+}
+
+#stars {
+  height: 20px;
+}
+
+#buy_section {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#buy_section div {
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#price {
+  font-size: xx-large;
+}
+
+#number {
+  background-color: white;
+  border: 0;
+}
+
+#button_buy {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  background-color: rgb(251, 211, 219);
+  border: 1px solid rgb(251, 211, 219);
+  margin-top: 5%;
+  height: 3rem;
+  width: 30rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  font-size: medium;
+  border: 1px solid rgb(251, 211, 219);
+  background-color: rgb(251, 211, 219);
 }
 
 body {

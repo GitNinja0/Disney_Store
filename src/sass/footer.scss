@@ -1,23 +1,65 @@
-.left{
-    width: 49%;
-    display: inline-block;
+footer {
     
+    background-color: #cfc6db;
+    font-family: 'Poppins';
+  
 }
 
-.right{
-    width: 49%;
-    display: inline-block;
-    text-align: right;
+
+#footer_info{
+    display: grid;
+    width: 1400px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    padding-top: 2em;
+
+    a{
+        display: block;
+        padding-top: 0.5em;
+    }
+    #pago{
+        padding-right: 40px;
+        display: grid;
+        text-align: center;
+        row-gap: 30px;
+        #cards{
+             img {
+                width: 50px;
+            }
+        }
+        
+    }
+    #cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+        
+      
+        
+  
+       
+        
+  }
+    
 
     
+    img{
+        width: 70px;
+        margin:auto;
+    }
+    #registro p{padding-top: 0.5em;
+        }
+
+    div{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
+}
+#legal{
+    text-align: center;
+    padding-top: 3em;
+   p{ padding-top: 0.5em;
+   }
 
-footer {
-    background-color: #340D6B;
-    color: white;
-    padding: 2rem;
-    div{ 
-        vertical-align: top;
-    }
 }

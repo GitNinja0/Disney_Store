@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="stylesheet" href="css/footer.css" />
-    </head>
-    <body>
-    <header class="header">
-        
-             <div class="nav_principal">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del producto</title>
+    <link rel="stylesheet" href="../public/css/styles.css">
+    
+   
+  
+</head>
+<body>
+    <header class="header_products">
+        <nav class="nav">
+            <div class="nav_principal">
                 <div>
                    <div class="logo"></div>
                      
@@ -29,67 +31,79 @@
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
                  </svg>
-            </div> 
+            </div>
             
-        
+        </nav>
 
-        <section class="menu bar"> 
-
-            <nav class="nav">
-                <ul class="menu">
-                    <li class="categories"><a href="#">CATEGORIAS</a></li>
-                        <ul class="submenu" >
-                            <li><a class="sub_a" href="#">Peluches</a></li>
-                            <li><a class="sub_a" href="#">Disfraces</a></li>
-                            <li><a class="sub_a" href="#">Figuras</a></li>
-                            <li><a class="sub_a" href="#">Camisetas</a></li>
-                            <li><a class="sub_a" href="#">Tazas</a></li>
-                            <li><a class="sub_a" href="#">Navidad</a></li>
-                        </ul>
-                    <li class="categories"><a class="cat_a" href="#">NOVEDADES</a></li>
-                    <li class="categories"><a class="cat_a" href="#">PROMOCIONES</a></li>
-                    <li class="categories"><a class="cat_a" href="#">OUTLET</a></li>
-                    <li class="categories"><a class="cat_a" href="#">CONTACTO</a></li>
-                </ul>
-            </nav>
-        
-        </section>
-        <section class="title">
-              <a class="button" href="#products">Bienvenidos</a>
+        <section class="menu bar">
+            <p>CATEGORIAS</p>
+            <p>NOVEDADES</p>
+            <p>PROMOCIONES</p>
+            <p>OUTLET</p>
+            <p>CONTACTO</p>
         </section>
         
     </header>
     
     <main>
-        <section  id="products"class="flex">
-            <h2>
-              CATEGORÍAS
-            </h2>
+        <section>
+            <p>inicio / categorías / peluches / Minnie Mouse Rosa</p>
         </section>
-        <section class="flex">
-         <div id="category-section">
-            <article id="img1"class="category trending">
-                <div class="backdrop"><h3>disfraces</h3></div>
-            </article>
-            <article id="img2" class="category trending">
-                <div class="backdrop"><h3>Peluches</h3></div>
-            </article>
-            <article id="img3" class="category">
-                <div class="backdrop"><h3>accesorio</h3></div>
-            </article>
-            <article id="img4" class="category">
-                <div class="backdrop"><h3>juguetes</h3></div>
-            </article>
-            <article id="img5" class="category">
-                <div class="backdrop"><h3>navidad</h3></div>
-            </article>
-            <article id="img6" class="category">
-                <div class="backdrop"><h3>tazas</h3></div>
-            </article>
-         </div>
-        </section>
-    </main>
+        <article id="product_details" class="flex_product">
+            <img id="product_img" src="../public/assets/img/412323305616.webp" alt="product-img">
+            <aside>
+                <div id="icons">
+                    <h2> Minnie Mouse, rosa. </h2>
+                    <img id="svh_shere"class="svg_style"src="./assets/pagina_minnie/icono_share_negro.svg" alt="">
+                    <img id="svh_heart"class="svg_style"src="./assets/pagina_minnie/corazon_relleno_lila.svg" alt="">
+                
+                </div>
+                 
+                <div id="review_section" class="flex_product">
+                    <div id="stars" class="flex_product">
+                        <img src="../public/assets/img/star-svgrepo-com.svg" alt="">
+                        <img src="../public/assets/img/star-svgrepo-com.svg" alt="">
+                        <img src="../public/assets/img/star-svgrepo-com.svg" alt="">
+                        <img src="../public/assets/img/star-svgrepo-com.svg" alt="">
+                        <img src="../public/assets/img/star-svgrepo-com.svg" alt="">
 
+                    </div>
+                    <p>10 Opiniones</p>
+                    
+                </div>
+                <p>¡Oh! Este peluche grande de Minnie Mouse vestida de rosa le dará un toque encantador a tu colección. En este diseño, la adorable ratoncilla aparece de pie con un lazo en relieve, detalles bordados y su clásico vestido de color rosa.</p>
+                <h3>Características</h3>
+                <ul>
+                    <li>67 × 26 × 26 cm (alto × ancho × largo) aprox.</li>
+                    <li>Producto fabricado en fibras de poliéster</li>
+                    <li>Limpiar con un trapo</li>
+                    <li>Año: 2022</li>
+                </ul>
+                <div id="buy_section" class="flex_product">
+                    <p id="price">35,95 €</p>
+                    <div class="flex_product">
+                        <button class="square">-</button>
+                        <p id="number"class="square" >1</p>
+                        <button class="square">+</button>
+        
+                    </div>
+                    <div class="flex_product">
+                        <button id="button_buy">Añadir a la cesta</button>
+                    </div>
+                    
+                
+                </div>
+
+                
+
+
+            
+
+            </aside>
+
+        </article>
+
+    </main>
     <footer>
         <div id="redes">
 
@@ -152,6 +166,7 @@
             
         </div>
     </footer>
-</body>
     
+    
+</body>
 </html>
