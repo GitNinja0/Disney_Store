@@ -4,7 +4,4 @@
 @use "menu.scss";
 @use "dropdown.scss";
 @use "product.scss";
- 
-body{
-    margin: 0;
-}
+@use "normalize.scss";
