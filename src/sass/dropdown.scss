@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
 li, a{
     text-decoration: none;
 }
@@ -12,7 +14,7 @@ li{
     background-color: rgba($color: #000000, $alpha: 0.2);
     box-shadow: #0096E7;
     position: absolute;
-    padding: 14px 0px;
+    padding: 0px;
     visibility: hidden; 
     opacity: 0; 
     z-index: 10; 
@@ -20,16 +22,41 @@ li{
   }
 .dropdown:hover > .dropdown_two {
     visibility: visible;
+    background-color: #c3b2e4bf;
     opacity: 1; 
 }
 .nav_drop{
     display: flex;
     justify-content: center;
-    gap: 20px;
+}
+.category_drop{
+    margin-right: 20px;
 }
 .a_dropdown{
     color: white;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    height: 100%;
+    
 }
 .a_dropdown:hover{
-    background-color: gray;
+    background: #5b78a7;
 }
+#dropdown .nav_drop .dropdown:hover {
+    background:#5b78a7;
+   }
+
+.a_dropdown a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+   
+
+   
+
