@@ -6,7 +6,7 @@ footer {
 #footer_info {
   display: grid;
   width: 1400px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1.3fr 1fr 1fr 1fr;
   margin: auto;
   padding-top: 2em;
 }
@@ -15,20 +15,33 @@ footer {
   padding-top: 0.5em;
 }
 #footer_info #pago {
-  padding-right: 40px;
+  padding-right: 30px;
+  padding-top: 20px;
   display: grid;
-  text-align: center;
   row-gap: 30px;
+}
+#footer_info #pago #cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 #footer_info #pago #cards img {
   width: 50px;
 }
-#footer_info #cards {
+#footer_info #pago #apps {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 0.5fr 0.55fr;
+  column-gap: 40px;
+}
+#footer_info #online_payments {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+#footer_info #online_payments img {
+  height: 30px;
+  text-align: justify;
 }
 #footer_info img {
-  width: 70px;
   margin: auto;
 }
 #footer_info #registro p {

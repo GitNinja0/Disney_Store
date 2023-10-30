@@ -9,7 +9,7 @@ footer {
 #footer_info{
     display: grid;
     width: 1400px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
     margin: auto;
     padding-top: 2em;
 
@@ -18,33 +18,45 @@ footer {
         padding-top: 0.5em;
     }
     #pago{
-        padding-right: 40px;
+        padding-right: 30px;
+        padding-top: 20px;
         display: grid;
-        text-align: center;
+        
         row-gap: 30px;
         #cards{
              img {
                 width: 50px;
             }
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            
+        } 
+        #apps{
+            display: grid;
+            grid-template-columns: 0.5fr 0.55fr;
+            column-gap: 40px;
+            
+
         }
-        
-    }
-    #cards{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        
-        
-      
-        
-  
-       
         
   }
     
 
+  #online_payments {
+    img {
+        height: 30px;
+        text-align: justify;
+
+    }
+    display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 10px;
+           
+        
+  }
     
     img{
-        width: 70px;
+        ;
         margin:auto;
     }
     #registro p{padding-top: 0.5em;
