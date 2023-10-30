@@ -9,8 +9,9 @@
     </head>
     <body>
     <header class="header">
-        <nav class="nav">
-            <div class="nav_principal">
+        <section class="header_navs">
+        
+             <div class="nav_principal">
                 <div>
                    <div class="logo"></div>
                      
@@ -18,27 +19,45 @@
                 </div>         
             </div>
             <div class="nav_secundary">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-basket" width="54" height="54" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
-                    <path d="M5.001 8h13.999a2 2 0 0 1 1.977 2.304l-1.255 7.152a3 3 0 0 1 -2.966 2.544h-9.512a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304z"></path>
-                    <path d="M17 10l-2 -6"></path>
-                    <path d="M7 10l2 -6"></path>
-                 </svg>
-                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="54" height="54" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
-                 </svg>
-            </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-basket" width="54" height="54" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
+                        <path d="M5.001 8h13.999a2 2 0 0 1 1.977 2.304l-1.255 7.152a3 3 0 0 1 -2.966 2.544h-9.512a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304z"></path>
+                        <path d="M17 10l-2 -6"></path>
+                        <path d="M7 10l2 -6"></path>
+                     </svg>
+                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="54" height="54" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
+                     </svg>
+                </div>
+            </div> 
             
-        </nav>
+        </section>
 
-        <section class="menu bar">
-            <p>CATEGORIAS</p>
-            <p>NOVEDADES</p>
-            <p>PROMOCIONES</p>
-            <p>OUTLET</p>
-            <p>CONTACTO</p>
+        <section class="menu bar"> 
+
+            <nav >
+                <ul class="nav_drop">
+                    <li class="dropdown">
+                        <p class="category_drop">Categorias</p>
+                            <ul class="dropdown_two">
+                                <li><a class="a_dropdown" href="">Peluches</a></li>
+                                <li><a class="a_dropdown" href="">Disfraces</a></li>
+                                <li><a class="a_dropdown" href="">Figuras</a></li>
+                                <li><a class="a_dropdown" href="">Camisetas</a></li>
+                                <li><a class="a_dropdown" href="">Tazas</a></li>
+                                <li><a class="a_dropdown" href="">Navidad</a></li>
+                            </ul>
+                    </li>
+                    <p class="category_drop">Novedades</p>
+                    <p class="category_drop">Promociones</p>
+                    <p class="category_drop">Oulet</p>
+                    <p class="category_drop">Contacto</p>
+                </ul>
+            </nav>
+        
         </section>
         <section class="title">
               <a class="button" href="#products">Bienvenidos</a>
