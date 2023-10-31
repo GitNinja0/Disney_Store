@@ -22,7 +22,7 @@ li{
   }
 .dropdown:hover > .dropdown_two {
     visibility: visible;
-    background-color: #c3b2e4bf;
+    background-color:rgba(251, 211, 219, 0.479);
     opacity: 1; 
 }
 .nav_drop{
@@ -33,19 +33,26 @@ li{
     margin-right: 20px;
 }
 .a_dropdown{
-    color: white;
+    color: black;
     text-transform: uppercase;
     display: block;
     width: 100%;
     height: 100%;
-    
 }
+
+.color {
+    color: #000000;
+}
+
 .a_dropdown:hover{
-    background: #5b78a7;
+    background:rgb(249, 161, 179) ;
+
 }
+
 #dropdown .nav_drop .dropdown:hover {
-    background:#5b78a7;
-   }
+    background:rgba(251, 211, 219, 0.479); 
+    backdrop-filter: brightness(50%);
+}
 
 .a_dropdown a{
     display: block;
