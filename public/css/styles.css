@@ -60,6 +60,10 @@
   text-decoration: none;
 }
 
+.button:hover {
+  background-color: rgb(249, 161, 179);
+}
+
 body {
   background-color: #ffffff;
 }
