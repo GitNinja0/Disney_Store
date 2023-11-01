@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalles del producto</title>
     <link rel="stylesheet" href="../public/css/styles.css">
-    
-   
-  
 </head>
 <body>
     <header class="header_products">
@@ -49,10 +46,8 @@
             <aside>
                 <div id="icons">
                     <h2> Minnie Mouse, rosa. </h2>
-                    <img id="svh_shere"class="svg_style"src="./assets/pagina_minnie/icono_share_negro.svg" alt="">
-                 
-                    <heartButton id="svh_heart"class="svg_style selected" ></heartButton>
-                  
+                    <img id="svg_shere" class="svg_style" src="./assets/pagina_minnie/icono_share_negro.svg">
+                    <img id="svg_heart" class="svg_style" onclick="toggleSelected()"></img>
                 </div>
                  
                 <div id="review_section" class="flex_product">
@@ -162,7 +157,7 @@
             
         </div>
     </footer>
-    
+    <script src="../src/js/heart.js"></script>
     
 </body>
 </html>
