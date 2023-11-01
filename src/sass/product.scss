@@ -14,13 +14,19 @@ main{
 #svh_heart{
  margin-left:  1rem;
 background-image: url("../assets/pagina peluches/corazón_vacío_lila.svg");
-width: 35px;
-height: 35px;
+width: 40px;
+height: 40px;
 background-size: cover;
+border: none;
+
 }
 
 #svh_heart.selected {
     background-image:"../assets/pagina peluches/corazon_relleno_lila_final.svg";
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+     border: none;
 }
 
  
