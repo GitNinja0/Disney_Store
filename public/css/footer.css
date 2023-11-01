@@ -1,6 +1,8 @@
 footer {
   background-color: #cfc6db;
   font-family: "Poppins";
+  margin-bottom: 0;
+  padding-bottom: 30px;
 }
 
 #footer_info {
@@ -9,6 +11,7 @@ footer {
   grid-template-columns: 1.3fr 1fr 1fr 1fr;
   margin: auto;
   padding-top: 2em;
+  font-size: 1rem;
 }
 #footer_info a {
   display: block;
@@ -16,9 +19,9 @@ footer {
 }
 #footer_info #pago {
   padding-right: 30px;
-  padding-top: 20px;
+  padding-top: 75px;
   display: grid;
-  row-gap: 30px;
+  row-gap: 20px;
 }
 #footer_info #pago #cards {
   display: grid;
@@ -30,7 +33,7 @@ footer {
 #footer_info #pago #apps {
   display: grid;
   grid-template-columns: 0.5fr 0.55fr;
-  column-gap: 40px;
+  column-gap: 30px;
 }
 #footer_info #online_payments {
   display: grid;
@@ -41,11 +44,22 @@ footer {
   height: 30px;
   text-align: justify;
 }
+#footer_info form input {
+  display: inline;
+  width: 130px;
+  height: 40px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
 #footer_info img {
   margin: auto;
 }
 #footer_info #registro p {
-  padding-top: 0.5em;
+  padding-top: 10px;
+}
+#footer_info .boton {
+  background-color: white;
+  border-radius: 5px;
 }
 #footer_info div {
   padding-left: 20px;
@@ -53,11 +67,14 @@ footer {
 }
 
 #legal {
+  font-size: 0.8rem;
   text-align: center;
-  padding-top: 3em;
+  padding-top: 20px;
 }
 #legal p {
-  padding-top: 0.5em;
+  padding-top: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 /*# sourceMappingURL=footer.css.map */

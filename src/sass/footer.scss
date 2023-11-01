@@ -2,6 +2,8 @@ footer {
     
     background-color: #cfc6db;
     font-family: 'Poppins';
+    margin-bottom: 0;
+    padding-bottom: 30px;
   
 }
 
@@ -12,6 +14,8 @@ footer {
     grid-template-columns: 1.3fr 1fr 1fr 1fr;
     margin: auto;
     padding-top: 2em;
+    font-size: 1rem ;
+    
 
     a{
         display: block;
@@ -19,10 +23,10 @@ footer {
     }
     #pago{
         padding-right: 30px;
-        padding-top: 20px;
+        padding-top: 75px;
         display: grid;
         
-        row-gap: 30px;
+        row-gap: 20px;
         #cards{
              img {
                 width: 50px;
@@ -34,7 +38,7 @@ footer {
         #apps{
             display: grid;
             grid-template-columns: 0.5fr 0.55fr;
-            column-gap: 40px;
+            column-gap: 30px;
             
 
         }
@@ -54,13 +58,28 @@ footer {
            
         
   }
+  form{ 
+    
+    input{
+        display: inline;
+        width: 130px;
+        height: 40px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+  }
     
     img{
-        ;
+        
         margin:auto;
     }
-    #registro p{padding-top: 0.5em;
-        }
+    #registro p{padding-top: 10px;
+    }
+
+    .boton {
+        background-color: white;
+        border-radius: 5px;
+    }
 
     div{
         padding-left: 20px;
@@ -69,9 +88,13 @@ footer {
 
 }
 #legal{
+    font-size: 0.8rem;
     text-align: center;
-    padding-top: 3em;
-   p{ padding-top: 0.5em;
+    padding-top: 20px;
+    
+   p{ padding-top: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
    }
 
 }
