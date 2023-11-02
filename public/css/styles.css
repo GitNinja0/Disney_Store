@@ -68,6 +68,10 @@ body {
   background-color: #ffffff;
 }
 
+#index__main {
+  flex-direction: column;
+}
+
 #products {
   background-color: white;
   filter: opacity(95%);
@@ -157,9 +161,40 @@ body {
   background-size: cover;
 }
 
+.cat_products {
+  text-decoration: none;
+  color: black;
+}
+
 footer {
-  background-color: #cfc6db;
+  background-color: rgb(251, 211, 219);
   font-family: "Poppins";
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+footer a, footer p {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  font-weight: lighter;
+  line-height: 1.5em;
+}
+footer h2 {
+  font-size: 14px;
+  letter-spacing: 0.11em;
+  font-weight: lighter;
+}
+footer .border-right {
+  border-right: 1px solid black;
+}
+footer #redes {
+  margin: auto;
+  width: fit-content;
+}
+footer #redes img {
+  width: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 15px;
 }
 
 #footer_info {
@@ -167,7 +202,6 @@ footer {
   width: 1400px;
   grid-template-columns: 1.3fr 1fr 1fr 1fr;
   margin: auto;
-  padding-top: 2em;
 }
 #footer_info a {
   display: block;
@@ -175,9 +209,9 @@ footer {
 }
 #footer_info #pago {
   padding-right: 30px;
-  padding-top: 20px;
+  padding-top: 25px;
   display: grid;
-  row-gap: 30px;
+  row-gap: 20px;
 }
 #footer_info #pago #cards {
   display: grid;
@@ -189,7 +223,7 @@ footer {
 #footer_info #pago #apps {
   display: grid;
   grid-template-columns: 0.5fr 0.55fr;
-  column-gap: 40px;
+  column-gap: 30px;
 }
 #footer_info #online_payments {
   display: grid;
@@ -200,11 +234,24 @@ footer {
   height: 30px;
   text-align: justify;
 }
+#footer_info form input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-color: transparent;
+}
 #footer_info img {
   margin: auto;
 }
 #footer_info #registro p {
-  padding-top: 0.5em;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+#footer_info .boton {
+  background-color: white;
+  border-radius: 5px;
 }
 #footer_info div {
   padding-left: 20px;
@@ -213,10 +260,13 @@ footer {
 
 #legal {
   text-align: center;
-  padding-top: 3em;
+  padding-top: 40px;
 }
 #legal p {
-  padding-top: 0.5em;
+  font-size: 12px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .menu {
@@ -309,6 +359,10 @@ li {
 main {
   margin: 5% 5%;
   font-family: "Poppins", sans-serif;
+}
+
+#product__main {
+  flex-direction: column;
 }
 
 .flex_product {
@@ -702,6 +756,78 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+#category__main {
+  margin: 5%;
+}
+
+#category__products {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+#category__section {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  grid-template-rows: repeat(3, auto);
+  gap: 5rem;
+}
+
+.product__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__image__container {
+  display: flex;
+  justify-content: center;
+}
+
+.card__image {
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+
+.stars {
+  height: 20px;
+}
+
+.review__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: 800;
+  font-size: x-large;
+  margin: 0;
+}
+
+.card__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__heart {
+  height: 40px;
+  width: 40px;
 }
 
 /*# sourceMappingURL=styles.css.map */

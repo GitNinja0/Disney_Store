@@ -7,6 +7,10 @@ body{
     background-color: #ffffff;
 }
 
+#index__main {
+    flex-direction: column;
+}
+
 #products{
     background-color: white;
     filter: opacity(95%);
@@ -90,4 +94,8 @@ body{
 #img6{
     background-image: url(../../public/assets/img/tazas.jpg);
     background-size: cover; 
+}
+.cat_products{
+    text-decoration: none;
+    color: black;
 }

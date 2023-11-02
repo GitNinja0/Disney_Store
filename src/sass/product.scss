@@ -4,6 +4,11 @@ main{
     margin: 5% 5%;
     font-family: 'Poppins', sans-serif;
 }
+
+#product__main {
+    flex-direction: column;
+}
+
 .flex_product{
     display: flex;
 }
