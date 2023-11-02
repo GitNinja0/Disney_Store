@@ -157,6 +157,11 @@ body {
   background-size: cover;
 }
 
+.cat_products {
+  text-decoration: none;
+  color: black;
+}
+
 footer {
   background-color: rgb(251, 211, 219);
   font-family: "Poppins";
