@@ -3,6 +3,10 @@ body {
   background-color: #ffffff;
 }
 
+#index__main {
+  flex-direction: column;
+}
+
 #products {
   background-color: white;
   filter: opacity(95%);

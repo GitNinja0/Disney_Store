@@ -64,6 +64,10 @@ body {
   background-color: #ffffff;
 }
 
+#index__main {
+  flex-direction: column;
+}
+
 #products {
   background-color: white;
   filter: opacity(95%);
@@ -341,6 +345,10 @@ li {
 main {
   margin: 5% 5%;
   font-family: "Poppins", sans-serif;
+}
+
+#product__main {
+  flex-direction: column;
 }
 
 .flex_product {
